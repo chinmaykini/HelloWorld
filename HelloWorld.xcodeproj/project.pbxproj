@@ -19,6 +19,8 @@
 		3BBAB37819C16D4500E628BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBAB36019C16D4400E628BF /* UIKit.framework */; };
 		3BBAB38019C16D4500E628BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BBAB37E19C16D4500E628BF /* InfoPlist.strings */; };
 		3BBAB38219C16D4500E628BF /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBAB38119C16D4500E628BF /* HelloWorldTests.m */; };
+		3BBAB38C19C1803000E628BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBAB38B19C1803000E628BF /* Main.storyboard */; };
+		3BBAB38E19C189F500E628BF /* IMG_1186.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3BBAB38D19C189F500E628BF /* IMG_1186.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		3BBAB37D19C16D4500E628BF /* HelloWorldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloWorldTests-Info.plist"; sourceTree = "<group>"; };
 		3BBAB37F19C16D4500E628BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3BBAB38119C16D4500E628BF /* HelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldTests.m; sourceTree = "<group>"; };
+		3BBAB38B19C1803000E628BF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3BBAB38D19C189F500E628BF /* IMG_1186.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_1186.JPG; path = ../../../Desktop/DCIM/phonepics/IMG_1186.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +111,10 @@
 		3BBAB36219C16D4400E628BF /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				3BBAB38D19C189F500E628BF /* IMG_1186.JPG */,
 				3BBAB36B19C16D4400E628BF /* HelloWorldAppDelegate.h */,
 				3BBAB36C19C16D4400E628BF /* HelloWorldAppDelegate.m */,
+				3BBAB38B19C1803000E628BF /* Main.storyboard */,
 				3BBAB36E19C16D4400E628BF /* Images.xcassets */,
 				3BBAB36319C16D4400E628BF /* Supporting Files */,
 			);
@@ -219,8 +225,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BBAB38C19C1803000E628BF /* Main.storyboard in Resources */,
 				3BBAB36719C16D4400E628BF /* InfoPlist.strings in Resources */,
 				3BBAB36F19C16D4400E628BF /* Images.xcassets in Resources */,
+				3BBAB38E19C189F500E628BF /* IMG_1186.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
